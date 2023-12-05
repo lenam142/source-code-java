@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 11, 2022, 3:54:09 PM
+    Author     : ADMIN
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;/*ẩn số thứ tự*/
+    text-decoration: none;
+}
+.container{
+    max-width: 1700px;
+}
+.container .sanpham p{
+    font-size: 18px;
+}
+.container .sanpham .hinhanh{
+    padding: 20px 15px;
+}
+/* .container a button{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px ;
+    border-color: blue;
+    cursor: pointer;
+} */
+.product-gallery-one .container a button{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px ;
+    border-color: blue;
+    cursor: pointer;
+}
+.product-gallery-one .container :hover button{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px ;
+    border-color: blue;
+    cursor: pointer;
+}
+/* .container :hover button{
+    background: linear-gradient(to right,#3300 0%,#13ce71 50%)
+} */
+.product-gallery-one .container :hover button{
+    background: linear-gradient(to right,#3300 0%,#13ce71 50%)
+}
+.container .khoangtrong1{
+    height: 100px;
+    font-size: 20px;
+}
